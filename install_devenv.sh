@@ -9,3 +9,5 @@ apt install software-properties-common
 #apt update
 apt install -y ansible 
 ansible-playbook install_devenv.yaml
+#TODO: import into playbook instead
+#pip3 install virtualenv
